@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo {
+    width: 250px;
+    border-radius: 20px;
+}
+
+.fullname p {
+    font-size: 0.75em;
+    text-align: center;
+}
+
+.contacts {
+    padding: 20px;
+}
+
+.contacts ul {
+    margin-left: 20px;
+}
+
+.about {
+    padding: 20px;
+}
+
+.about h3 {
+    text-align: right;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.skills {
+    padding: 20px;
+}
+
+.skills ul {
+    margin-left: 20px;
+}
+
+.code {
+    padding: 20px;
+}
+
+.code h3 {
+    text-align: right;
+}
+
+pre {
+    padding: 20px;
+    background-color: rgb(221, 226, 226);
+}
+
+.edu {
+    padding: 20px;
+}
+
+.english {
+    padding: 20px;
+}

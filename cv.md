@@ -10,7 +10,7 @@ Junior Developer
 - Skype:  _live:e63d4653804e4859_ 
 - Telegram:  [_@usavkov_](https://t.me/usavkov)
 - LinkedIn:  [_yury-savkov_](https://www.linkedin.com/in/yury-savkov)
-- GitHub:  [_usavkov_](https://github.com/Werever1001)
+- GitHub:  [_usavkov_](https://github.com/usavkov)
 
 ### About me:
 
