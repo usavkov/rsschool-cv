@@ -5,6 +5,11 @@
     padding: 0;
     font-family: 'Open Sans';
 }
+
+a {
+    text-decoration: none;
+}
+
 .wrapper {
     max-width: 1200px;
     margin: auto;
@@ -26,4 +31,53 @@ header {
 .fullname p {
     font-size: 0.75em;
     text-align: center;
+}
+
+.contacts {
+    padding: 20px;
+}
+
+.contacts ul {
+    margin-left: 20px;
+}
+
+.about {
+    padding: 20px;
+}
+
+.about h3 {
+    text-align: right;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.skills {
+    padding: 20px;
+}
+
+.skills ul {
+    margin-left: 20px;
+}
+
+.code {
+    padding: 20px;
+}
+
+.code h3 {
+    text-align: right;
+}
+
+pre {
+    padding: 20px;
+    background-color: rgb(221, 226, 226);
+}
+
+.edu {
+    padding: 20px;
+}
+
+.english {
+    padding: 20px;
 }
