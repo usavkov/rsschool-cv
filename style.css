@@ -10,6 +10,10 @@ a {
     text-decoration: none;
 }
 
+mark {
+    background-color: aliceblue;
+}
+
 .wrapper {
     max-width: 1200px;
     margin: auto;
@@ -25,11 +29,12 @@ header {
 
 .logo {
     width: 250px;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
-.fullname p {
+.fullname h2 {
     font-size: 0.75em;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -80,4 +85,28 @@ pre {
 
 .english {
     padding: 20px;
+}
+
+footer {
+    height: 100px;
+    display: grid;
+    grid-template-columns: auto repeat(3, 100px);
+    grid-template-rows: 100px;
+    justify-items: center;
+    align-items: center;
+
+    background-color: #eee;
+}
+
+footer img {
+    width: 100%;
+}
+
+.gh {
+    display: grid;
+    justify-items: center;
+}
+
+.gh img {
+    width: 40%;
 }

@@ -12,7 +12,9 @@
             <img src="https://sun9-47.userapi.com/sun9-16/impf/c837321/v837321243/5243d/OsvvJ9U1svI.jpg" class="logo" alt="Photo of Yuri Savkov">
             <section class='fullname'> 
                 <h1>Yuri Savkov</h1>
-                <p>Junior Developer</p>
+                <h2>
+                    <mark>Junior Developer</mark>
+                </h2>
             </section>
         </header>
         <hr>
@@ -22,7 +24,7 @@
                 <br>
                 <ul>
                     <li>E-mail: <a href="mailto:yury.saukou@gmail.com">yury.saukou@gmail.com</a></li>
-                    <li>Phone number: <a href="callto:37529999">+375 (29) 999 - .. - ..</a></li>
+                    <li>Phone number: <a href="callto:375299993888">+375 (29) 999-38-88</a></li>
                     <li>Skype: <a href="skype:">live:e63d4653804e4859</a></li>
                     <li>Telegram: <a href="https://t.me/usavkov">@usavkov</a></li>
                     <li>LinkedIn: <a href="https://www.linkedin.com/in/yury-savkov">yury-savkov</a></li>
@@ -51,18 +53,19 @@
                 <h3>Code example:</h3>
                 <br>
 
-                <code>
-                    <p>Bind function implementation</p>
-                    <pre>
+                <p>Bind function implementation</p>
+                <pre>
+                    <code>
                         Function.prototype.myBind = function implemetedBindFunction (context, ...args) {
                             const ID = Symbol('Unique ID');
                             context[ID] = this;
                             
                             return function (...args) {
-                              return context[ID](...args)
+                                return context[ID](...args)
                             }
-                          }</pre>
-                </code>
+                            }
+                    </code>
+                </pre>
             </section>
             <hr>
             <section class="edu">
@@ -77,6 +80,19 @@
                 <p>B1 (Intermediate)</p>
             </section>
         </main>
+        <footer>
+            <p>Created in <time>2021</time></p>
+            <a href="https://github.com/usavkov/" target="_blank">
+                <figure class="gh">
+                    <img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="GitHub account">
+                   <figcaption>
+                       <p>usavkov</p>
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="Rolling Scopes School"></a>
+            <a href="#" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="Video with self-check on YouTube"></a>
+        </footer>
     </div>
 </body>
 </html>
