@@ -67,11 +67,42 @@ header {
 }
 
 .code {
+    display: grid;
     padding: 20px;
 }
 
 .code h3 {
     text-align: right;
+}
+
+.code span {
+    position: relative;
+    margin: 20px 0;
+}
+
+.code span * {
+    margin-left: 60px;
+}
+
+.gh-logo::before {
+    content: " ";
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    left: 0px;
+    background-image: url('https://image.flaticon.com/icons/png/512/25/25231.png');
+    background-size: 44px 44px; 
+}
+
+.cw-logo::before {
+    content: " ";
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    left: 0px;
+    border-radius: 40%;
+    background-image: url('https://usavkov.github.io/codewars-check/logo.png');
+    background-size: 44px 44px; 
 }
 
 pre {
