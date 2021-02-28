@@ -75,12 +75,12 @@ header {
     text-align: right;
 }
 
-.code span {
+.code div {
     position: relative;
     margin: 20px 0;
 }
 
-.code span * {
+.code div * {
     margin-left: 60px;
 }
 
